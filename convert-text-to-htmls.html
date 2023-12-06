@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>文件分割</title>
+  <link rel="shortcut icon" href="./img/文件分割.png" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+  <style>
+    #num {width: 1cm;}
+  </style>
+</head>
+
+<body>
+  <h1>TXT分割为HTML</h1>
+  <p>
+    <input type="file" id="fileInput" />
+  </p>
+
+  <p>
+    <label for="num">请输入分割数量：</label>
+    <input type="number" id="num" />
+  </p>
+
+  <p>
+    <button onclick="splitFile()">Download Zip File</button>
+  </p>
+
+  <script>
+    function splitFile() {
+      let fileInput = document.getElementById("fileInput");
+      let file = fileInput.files[0];
+      let shortInputFileName = file.name.substring(0, file.name.indexOf("."));
+      const num = parseInt(document.getElementById("num").value);
+      let reader = new FileReader();
+      reader.onload = function (e) {
+        let text = e.target.result;
+        let smallFileSize = text.length / num;
+        let paragraphs = text.split("\n");
+        let currentFile = "";
+        let currentSize = 0;
+        let fileIndex = 1;
+        let zip = new JSZip();
+        for (let i = 0; i < paragraphs.length; i++) {
+          let paragraph = paragraphs[i];
+          paragraph = paragraph.replace(/^\s+|\s+$/g,'');
+          if (currentSize + paragraph.length > smallFileSize) {
+            addFileToZip(zip, currentFile, shortInputFileName + "-" + ("" + fileIndex).padStart(3, "0") + ".html");
+            currentFile = "";
+            currentSize = 0;
+            fileIndex++;
+          }
+          currentFile += "<p>" + paragraph + "</p>";
+          currentSize += paragraph.length;
+        }
+        if (currentFile !== "" ) {
+          
+          addFileToZip(zip, currentFile, shortInputFileName + "-" + ("" + fileIndex).padStart(3, "0") + ".html");
+        }
+        zip.generateAsync({ type: "blob" }).then(function (content) {
+          downloadFile(content, shortInputFileName+".html.zip");
+        });
+      };
+      reader.readAsText(file, "utf-8");
+    }
+
+    function addFileToZip(zip, content, filename) {
+      content = content.replace(/(<\/p><p>){2,}/g,'</p><p>');
+      
+      let vp= '<meta name="viewport" content="width=device-width,initial-scale=1">';
+      
+     let style  = '<style type="text/css">';
+      style += 'body {background-color: #FAF9DE; font-size:16px;}';
+      style += '.content {font-size: 18px;padding-bottom:2em;}';
+      style += 'p {text-indent: 2em}';
+      style += 'h3 {text-align:center}';
+      style += '#reminder {font-size: 0.8em;}';
+      style += '#fixed-footer {' + 'position: fixed;bottom: 0; left:0;width: 100%;     height:1.2em;background-color:grey;display: flex;justify-content: space-between;}';
+      style += '#fixed-footer #title {position: fixed;bottom:0;left:2em;     font-size:0.8em;width: 85%;}';
+      style += '#fixed-footer #progress {position: fixed;bottom:0;right:0;   width: 15%;text-align: left; color:blue;}</style>';
+        
+      let shortName = filename.substring(0, filename.indexOf("."));
+      
+      let js='<' + 'script> window.onscroll = function() {';
+      js += 'var progress = document.getElementById("progress");';
+      js += 'var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;';
+      js += 'var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;';
+      js += 'var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;';
+      js += 'var percent = Math.floor(scrollTop / (scrollHeight - clientHeight) * 100);';
+      js += 'progress.innerHTML = percent + "%";}';
+      js += '</' + 'script>';
+      
+      
+     let html  = "<!DOCTYPE html> <html> <head> <meta charset='utf-8'>";
+      html += "<title>" + shortName + "</title>"; 
+      html += vp + style + "</head>";
+      html += '<body> <div class="content"><h3>' + shortName + "</h3>";
+      html += content;
+      html += '<p id="reminder"><em>各位听众：' + shortName + "朗读完了！</em></p></div>";
+      html += `<div id="fixed-footer">
+        <div id="title">${shortName}</div>
+        <div id="progress">0%</div>
+    </div>`;
+      
+      html += js;
+      
+      html += "</body> </html>";
+      
+      zip.file(filename, html);
+    }
+
+    function downloadFile(content, filename) {
+      let link = document.createElement("a");
+      link.href = window.URL.createObjectURL(content);
+      link.download = filename;
+      link.click();
+    }
+  </script>
+</body>
+
+</html>
