@@ -1,1 +1,65 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin: 0 0 auto auto;
+}
+
+section {
+  left: auto;
+  right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+}
+
+a,img {vertical-align:center;}
+.div-divider {
+  width: 100vw;
+  height: 10px;
+}
+.div-text-link {
+  height: 2em;
+}
+.div-text-link a {
+  display: inline-block;
+  width: 30vw;
+  text-align: center;
+}
+
+.div-link-icons {
+  align-items: center;
+}
+
+.item-link {
+  width: 30vw;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item-icon {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: auto;
+  bottom: auto;
+}
+
+.a:visited {
+  color: black;
+}
