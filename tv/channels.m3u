@@ -10,7 +10,7 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226191/1.m3u8
 #EXTINF:-1,CCTV5
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
 #EXTINF:-1,CCTV6
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226011/index.m3u8
 #EXTINF:-1,CCTV7
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8
 #EXTINF:-1,CCTV8
@@ -24,7 +24,7 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8
 #EXTINF:-1,CCTV12
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8
 #EXTINF:-1,CCTV13
-https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8#https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
+https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
 #EXTINF:-1,CCTV14
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8
 #EXTINF:-1,CCTV15
@@ -32,7 +32,7 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
 #EXTINF:-1,CCTV16
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 #EXTINF:-1,CCTV17
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226198/1.m3u8
 #EXTINF:-1,湖北卫视
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226206/index.m3u8
 #EXTINF:-1,湖南卫视
@@ -119,8 +119,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225803/index.m3u8
 #EXTINF:-1,广西卫视
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225770/index.m3u8
-#EXTINF:-1,哈尔滨新闻
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226434/index.m3u8
 #EXTINF:-1,哈哈炫动
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226213/index.m3u8
 #EXTINF:-1,海南卫视
@@ -150,7 +148,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1,欢笑剧场4K
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226582/index.m3u8
 #EXTINF:-1,吉林卫视
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225792/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225792/index.m3u8
 #EXTINF:-1,嘉佳卡通
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226227/index.m3u8
 #EXTINF:-1,家庭剧场
@@ -188,7 +186,7 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225821/index.m3u8
 #EXTINF:-1,深圳卫视
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8
 #EXTINF:-1,四川卫视
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225768/index.m3u8
 #EXTINF:-1,苏州4K
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1,天津卫视
