@@ -6,11 +6,11 @@ http://liveop.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8
 #EXTINF:-1,CCTV3
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8
 #EXTINF:-1,CCTV4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226223/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226191/1.m3u8
 #EXTINF:-1,CCTV5
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
 #EXTINF:-1,CCTV6
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226011/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8
 #EXTINF:-1,CCTV7
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8
 #EXTINF:-1,CCTV8
@@ -24,7 +24,7 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8
 #EXTINF:-1,CCTV12
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8
 #EXTINF:-1,CCTV13
-https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
+https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8#https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
 #EXTINF:-1,CCTV14
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8
 #EXTINF:-1,CCTV15
@@ -34,13 +34,15 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 #EXTINF:-1,CCTV17
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
 #EXTINF:-1,湖北卫视
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226194/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226206/index.m3u8
 #EXTINF:-1,湖南卫视
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226211/index.m3u8
 #EXTINF:-1,超级综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
 #EXTINF:-1,金牌综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
+#EXTINF:-1,明星综艺
+http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=ystenlive&Contentid=5595720619887440144&livemode=1&stbId=4
 #EXTINF:-1,1905电影网
 http://nas.jdshipin.com:8801/1905.php?id=1905dy
 #EXTINF:-1,4K影视
@@ -80,7 +82,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 #EXTINF:-1,潮妈辣婆
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
 #EXTINF:-1,重庆卫视
-http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226202/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226202/index.m3u8
 #EXTINF:-1,纯享4K
 http://zteres.sn.chinamobile.com:6060/000000001000/1000000004000011651/index.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3
 #EXTINF:-1,第一剧场
@@ -148,7 +150,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1,欢笑剧场4K
 http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226582/index.m3u8
 #EXTINF:-1,吉林卫视
-http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225792/index.m3u8
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225792/index.m3u8
 #EXTINF:-1,嘉佳卡通
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226227/index.m3u8
 #EXTINF:-1,家庭剧场
@@ -211,3 +213,5 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225795/index.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225798/index.m3u8
 #EXTINF:-1,中国功夫
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
+#EXTINF:-1,综合剧场
+http://gslbserv.itv.cmvideo.cn/index.m3u8?stbId=000000001000&Contentid=7681593242002292003&livemode=1&channel-id=ystenlive&test/PLTV/=01
