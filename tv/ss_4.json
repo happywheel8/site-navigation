@@ -1,13 +1,13 @@
 {
   "wallpaper":"",
-  "spider": "https://gitee.com/baiduf6/tvbox/raw/master/candymuj.jar;md5;43a324ece09417cd64d9056029550c3e",
+  "spider": "",
+  //"spider": "https://gitee.com/baiduf6/tvbox/raw/master/candymuj.jar;md5;43a324ece09417cd64d9056029550c3e",
   "lives": [
     {"name":"live","type":0,"playerType":1,"url":"https://nav.mechatronics.ltd/tv/channels.txt","epg":"","logo":"http://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"},
     {"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly90di5sYW4yd2FuLnRvcC9saXZlLnR4dA=="]}]}
   ],
 
   "sites":[
-    {"key":"csp_DoubanForTVBox","name":"💕失效请联系青戈[quntus]","type":3,"api":"csp_DoubanForTVBox","searchable":0},
     {"key":"push_agent","name":"💤推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0}
   ],
 
