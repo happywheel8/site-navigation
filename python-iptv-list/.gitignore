@@ -1,0 +1,15 @@
+__pycache__/
+download/
+channels.m3u
+channels.txt
+phenix.txt
+.vscode/
+config.ini
+options.json
+*.exe
+build/
+*.spec
+*.swp
+dist/
+build/
+test*
