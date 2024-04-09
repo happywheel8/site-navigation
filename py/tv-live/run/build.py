@@ -10,8 +10,8 @@ class Playlist:
     def build_playlist(self):
         self.__read_options__()
         self.variables["urls"] = self.read_urls("./urls.txt")
-        self.variables["unwanted_keys"] = self.read_csv("./blacklist.txt")
-        self.variables["rename_rules"] = self.read_rename_rules("./rename_rules.txt")
+        self.variables["unwanted_keys"] = self.read_csv("./black.txt")
+        self.variables["rename_rules"] = self.read_rename_rules("./rename.txt")
         if self.variables["switch_download"] == "on":
             self.__download_from_urls__()
         self.__build_input_file_list__()
@@ -33,8 +33,8 @@ class Playlist:
 
     def __init__(self):
         self.variables = {
-            "download_folder": "./download",
-            "output_folder": "../site-navigation/tv",
+            "download_folder": "../download",
+            "output_folder": "../../../tv",
             "max_workers": 30,
             "output_file_name": "channels",
             "priority_name_keys": ["湖北卫视", "湖南卫视", "凤凰","CHC"],
@@ -235,8 +235,8 @@ class Playlist:
                 # and "]" in address
                 or "凤凰|鳳凰" in name
                 # or "mobaibox.com" in address.lower()
-                # or "chinamobile" in address.lower()
-                # or "cmvideo" in address.lower()
+                or "chinamobile" in address.lower()
+                or "cmvideo" in address.lower()
             ):
                 v6_channels[address] = name
 
