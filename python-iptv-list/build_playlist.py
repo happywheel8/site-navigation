@@ -235,8 +235,8 @@ class Playlist:
                 # and "]" in address
                 or "凤凰|鳳凰" in name
                 # or "mobaibox.com" in address.lower()
-                or "chinamobile" in address.lower()
-                or "cmvideo" in address.lower()
+                # or "chinamobile" in address.lower()
+                # or "cmvideo" in address.lower()
             ):
                 v6_channels[address] = name
 
