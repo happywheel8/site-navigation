@@ -2,36 +2,56 @@
 CCTV1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5068253659616166748&livemode=1&stbId=yu&mode=1&$2M HD
 CCTV1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv1&livemode=1&stbId=yu&mode=1&$2M HD
 CCTV1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-hdcctv1&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV1,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN111128BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV2,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5353323539453949720&livemode=1&stbId=meyou&mode=1
 CCTV2,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5353323539453949720&livemode=1&stbId=yu&mode=1&$2M HD
 CCTV2,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8878432746825677699&livemode=1&stbId=meyou&mode=1
 CCTV2,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8878432746825677699&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV2,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN5000036BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV3,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8378175926191110263&livemode=1&stbId=meyou&mode=1
+CCTV3,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638727c125355/index.m3u8?m3u8_level=2
 CCTV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=4719673858948437836&livemode=1&stbId=yu&mode=1&$2M SD
 CCTV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8183388942203045169&livemode=1&stbId=meyou&mode=1
 CCTV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8183388942203045169&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV4,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN6604ddd5cf779/index.m3u8?m3u8_level=2
 CCTV5,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5&livemode=1&stbId=meyou&mode=1
 CCTV5,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV5,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638727e617ca0/index.m3u8?m3u8_level=2
 CCTV6,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6117099895556651277&livemode=1&stbId=meyou&mode=1
+CCTV6,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638728804b1f9/index.m3u8?m3u8_level=2
 CCTV7,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7050628689018054317&livemode=1&stbId=meyou&mode=1
+CCTV7,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN5000038BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV8,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8871488051501921127&livemode=1&stbId=meyou&mode=1
+CCTV8,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638728970aa82/index.m3u8?m3u8_level=2
 CCTV9,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6275371742726901431&livemode=1&stbId=meyou&mode=1
 CCTV9,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6350727550077620987&livemode=1&stbId=meyou&mode=1
+CCTV9,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN5000039BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV10,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7019587760656900133&livemode=1&stbId=meyou&mode=1
+CCTV10,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN3949784BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV11,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6351457414282570521&livemode=1&stbId=meyou&mode=1
 CCTV11,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6351457414282570521&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV11,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN6000053BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV12,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5325631075193490169&livemode=1&stbId=meyou&mode=1
+CCTV12,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN5000040BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV13,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6918130250570453526&livemode=1&stbId=meyou&mode=1
 CCTV13,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6918130250570453526&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV13,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN6000054BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV14,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6113730085955692619&livemode=1&stbId=meyou&mode=1
 CCTV14,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6113730085955692619&livemode=1&stbId=yu&mode=1&$2M HD
 CCTV14,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8203666801302077036&livemode=1&stbId=meyou&mode=1
 CCTV14,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8203666801302077036&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV14,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN3949788BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV15,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=4832596595465032187&livemode=1&stbId=meyou&mode=1
+CCTV15,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN6000055BESTVSMGSMG/index.m3u8?m3u8_level=2
 CCTV17,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000056836&livemode=1&stbId=meyou&mode=1
 CCTV17,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000056836&livemode=1&stbId=yu&mode=1&$4M FHD
+CCTV17,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638728afa13b4/index.m3u8?m3u8_level=2
 CCTV5+,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5plus&livemode=1&stbId=meyou&mode=1
 CCTV5+,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5plus&livemode=1&stbId=yu&mode=1&$2M HD
+CCTV5+,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN63872908d48f9/index.m3u8?m3u8_level=2
+CCTV兵器科技,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638077907bdcd/index.m3u8?m3u8_level=2
+CCTV第一剧场,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN638077f5ca035/index.m3u8?m3u8_level=2
+CCTV风云音乐,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN63807810519fb/index.m3u8?m3u8_level=2
 卫视,#genre#
 安徽卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=4774346722046993363&livemode=1&stbId=meyou&mode=1
 安徽卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=4774346722046993363&livemode=1&stbId=yu&mode=1&$2M HD
