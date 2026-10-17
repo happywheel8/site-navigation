@@ -18,8 +18,6 @@ CCTV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=
 CCTV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8183388942203045169&livemode=1&stbId=meyou&mode=1
 CCTV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=8183388942203045169&livemode=1&stbId=yu&mode=1&$2M HD
 CCTV4,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN6604ddd5cf779/index.m3u8?m3u8_level=2
-CCTV4美洲,http://111.48.34.155/000000000000/PLTV/88888888/224/3221230585/1.m3u8
-CCTV4欧洲,http://111.48.34.152/000000000000/PLTV/88888888/224/3221230530/1.m3u8
 CCTV5,http://111.48.34.155/000000000000/PLTV/88888888/224/3221230400/1.m3u8
 CCTV5,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5&livemode=1&stbId=meyou&mode=1
 CCTV5,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5&livemode=1&stbId=yu&mode=1&$2M HD
@@ -68,6 +66,8 @@ CCTV5+,http://111.48.34.146/000000000000/PLTV/88888888/224/3221230455/1.m3u8
 CCTV5+,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5plus&livemode=1&stbId=meyou&mode=1
 CCTV5+,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=reallive-cctv5plus&livemode=1&stbId=yu&mode=1&$2M HD
 CCTV5+,http://ztecdn.hb.chinamobile.com:6060/170000001115/UmaiCHAN63872908d48f9/index.m3u8?m3u8_level=2
+CCTV4美洲,http://111.48.34.155/000000000000/PLTV/88888888/224/3221230585/1.m3u8
+CCTV4欧洲,http://111.48.34.152/000000000000/PLTV/88888888/224/3221230530/1.m3u8
 CCTV4K,http://111.48.34.210/000000000000/PLTV/88888888/224/3221230571/1.m3u8
 CCTV4K,http://111.48.34.230/000000001000/PLTV/88888888/224/3221230571/1.m3u8
 CETV1,http://111.48.34.170/000000000000/PLTV/88888888/224/3221230523/1.m3u8
@@ -210,8 +210,7 @@ CHC影迷电影,http://111.48.34.188/000000000000/PLTV/88888888/224/3221230483/1
 游戏风云,http://111.48.34.227/000000000000/PLTV/88888888/224/3221230599/1.m3u8
 
 综艺,#genre#
-NEWTV超级综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000023658&livemode=1&stbId=meyou&mode=1
-NEWTV金牌综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6399725674632152632&livemode=1&stbId=meyou&mode=1
+超级综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000023658&livemode=1&stbId=meyou&mode=1
 超级综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000023658&livemode=1&stbId=yu&mode=1&$4M FHD
 金牌综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6399725674632152632&livemode=1&stbId=yu&mode=1&$4M FHD
-
+金牌综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6399725674632152632&livemode=1&stbId=meyou&mode=1
