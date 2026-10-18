@@ -1,6 +1,7 @@
 __pycache__/
 download/
 .vscode/
+.workbuddy/
 config.ini
 *.exe
 build/
